@@ -1,0 +1,48 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 1",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 59,
+        "y": 853,
+        "width": 710,
+        "height": 794
+      },
+      "action": {
+        "type":"uri",
+        "uri":"line://nv/camera/"
+      }
+    },
+    {
+      "bounds": {
+        "x": 857,
+        "y": 853,
+        "width": 790,
+        "height": 794
+      },
+      "action": {
+        "type":"uri",
+        "uri":"line://nv/cameraRoll/single"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1740,
+        "y": 840,
+        "width": 735,
+        "height": 807
+      },
+      "action": {
+        "type": "postback",
+        "text": "範圍 3",
+        "data": "資料 3"
+      }
+    }
+  ]
+}
